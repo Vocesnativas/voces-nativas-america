@@ -542,3 +542,127 @@ margin-bottom:20px;
     margin-bottom:20px;
 
 }
+/*================ CONTACTO ================*/
+
+.contacto{
+
+background:#ffffff;
+
+}
+
+.formulario{
+
+max-width:700px;
+
+margin:auto;
+
+}
+
+.formulario form{
+
+display:flex;
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+.formulario input,
+.formulario textarea{
+
+padding:16px;
+
+border:1px solid #ccc;
+
+border-radius:12px;
+
+font-size:16px;
+
+font-family:Poppins,sans-serif;
+
+}
+
+.formulario textarea{
+
+resize:vertical;
+
+}
+
+/*================ FOOTER ================*/
+
+footer{
+
+background:#0b5d3b;
+
+color:white;
+
+padding:60px 20px;
+
+text-align:center;
+
+}
+
+.footer-contenido{
+
+max-width:1000px;
+
+margin:auto;
+
+}
+
+.footer-contenido h3{
+
+font-size:32px;
+
+margin-bottom:20px;
+
+}
+
+.footer-contenido p{
+
+margin:15px 0;
+
+}
+
+.redes{
+
+display:flex;
+
+justify-content:center;
+
+gap:25px;
+
+margin:30px 0;
+
+flex-wrap:wrap;
+
+}
+
+.redes a{
+
+color:white;
+
+text-decoration:none;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.redes a:hover{
+
+color:#ffd54f;
+
+}
+
+footer hr{
+
+margin:30px auto;
+
+width:80%;
+
+border:1px solid rgba(255,255,255,.2);
+
+}
