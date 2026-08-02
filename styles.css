@@ -417,3 +417,32 @@ color:#444;
 color:#0b5d3b;
 
 }
+/*================ LENGUAS DESTACADAS ================*/
+
+#lenguas{
+
+    background:#eef7f0;
+
+}
+
+#lenguas .card{
+
+    border-top:5px solid #0b5d3b;
+
+}
+
+#lenguas .icono{
+
+    font-size:60px;
+
+    margin-bottom:20px;
+
+}
+
+#lenguas .btn{
+
+    margin-top:20px;
+
+    display:inline-block;
+
+}
