@@ -285,17 +285,29 @@ nav a:hover::after{
 
 display:inline-block;
 
-background:rgba(255,255,255,.15);
+background:linear-gradient(90deg,#ff9800,#ffb74d);
 
-padding:10px 22px;
+color:#ffffff;
 
-border-radius:30px;
+padding:14px 30px;
 
-margin-bottom:25px;
+border-radius:50px;
 
-backdrop-filter:blur(8px);
+font-size:18px;
 
-font-size:15px;
+font-weight:700;
+
+letter-spacing:1px;
+
+text-transform:uppercase;
+
+margin-bottom:30px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+border:2px solid rgba(255,255,255,.4);
+
+animation:flotar 3s ease-in-out infinite;
 
 }
 
