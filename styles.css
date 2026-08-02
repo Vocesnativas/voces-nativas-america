@@ -135,8 +135,13 @@ nav a:hover{
 }
 
 .btn-principal:hover{
-    background:#ff6f00;
-    transform:translateY(-3px);
+
+background:#ff6f00;
+
+transform:translateY(-4px);
+
+box-shadow:0 12px 30px rgba(255,152,0,.5);
+
 }
 
 .btn-secundario{
