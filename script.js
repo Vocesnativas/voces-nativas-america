@@ -52,3 +52,32 @@ cards.forEach((card) => {
     mostrar.observe(card);
 
 });
+//================ BOTÓN ARRIBA ================
+
+const btnArriba = document.getElementById("btnArriba");
+
+window.addEventListener("scroll", () => {
+
+    if (window.scrollY > 500) {
+
+        btnArriba.style.display = "block";
+
+    } else {
+
+        btnArriba.style.display = "none";
+
+    }
+
+});
+
+btnArriba.addEventListener("click", () => {
+
+    window.scrollTo({
+
+        top: 0,
+
+        behavior: "smooth"
+
+    });
+
+});
