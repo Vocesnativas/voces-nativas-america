@@ -446,3 +446,30 @@ color:#0b5d3b;
     display:inline-block;
 
 }
+/*================ EXPLORA AMÉRICA ================*/
+
+#explorar{
+
+background:#ffffff;
+
+}
+
+#explorar .card{
+
+transition:.4s;
+
+}
+
+#explorar .card:hover{
+
+transform:translateY(-12px) scale(1.03);
+
+}
+
+#explorar .icono{
+
+font-size:55px;
+
+margin-bottom:20px;
+
+}
