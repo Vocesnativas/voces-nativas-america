@@ -494,3 +494,30 @@ margin-bottom:20px;
     margin-bottom:20px;
 
 }
+/*================ ¿POR QUÉ APRENDER? ================*/
+
+#porque{
+
+    background:#ffffff;
+
+}
+
+#porque .card{
+
+    border-left:6px solid #0b5d3b;
+
+}
+
+#porque .card:hover{
+
+    transform:translateY(-10px) scale(1.03);
+
+}
+
+#porque .icono{
+
+    font-size:60px;
+
+    margin-bottom:20px;
+
+}
