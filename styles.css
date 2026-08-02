@@ -473,3 +473,24 @@ font-size:55px;
 margin-bottom:20px;
 
 }
+/*================ OBJETIVOS ================*/
+
+#objetivos{
+
+    background:#eef7f0;
+
+}
+
+#objetivos .card{
+
+    border-bottom:5px solid #ff9800;
+
+}
+
+#objetivos .icono{
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
+}
