@@ -521,3 +521,24 @@ margin-bottom:20px;
     margin-bottom:20px;
 
 }
+/*================ RECURSOS EDUCATIVOS ================*/
+
+#recursos{
+
+    background:#eef7f0;
+
+}
+
+#recursos .card{
+
+    border-top:5px solid #ff9800;
+
+}
+
+#recursos .icono{
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
+}
