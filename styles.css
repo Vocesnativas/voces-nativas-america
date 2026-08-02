@@ -376,3 +376,44 @@ transform:translate(-50%,0);
 }
 
 }
+/*================ MISIÓN ================*/
+
+.mision{
+
+background:#ffffff;
+
+}
+
+.mision-contenido{
+
+max-width:900px;
+
+margin:auto;
+
+background:white;
+
+padding:50px;
+
+border-radius:20px;
+
+box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+.mision-texto{
+
+font-size:20px;
+
+line-height:2;
+
+text-align:center;
+
+color:#444;
+
+}
+
+.mision-texto strong{
+
+color:#0b5d3b;
+
+}
