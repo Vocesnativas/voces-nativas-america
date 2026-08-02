@@ -237,3 +237,45 @@ nav{
 }
 
 }
+/*================ EFECTOS ================*/
+
+.card{
+    opacity:0;
+    transform:translateY(40px);
+}
+
+header{
+    transition:.4s;
+}
+
+nav a{
+
+    position:relative;
+
+}
+
+nav a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-6px;
+
+    width:0;
+
+    height:2px;
+
+    background:#ffd54f;
+
+    transition:.3s;
+
+}
+
+nav a:hover::after{
+
+    width:100%;
+
+}
