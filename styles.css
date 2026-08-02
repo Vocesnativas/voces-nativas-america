@@ -709,3 +709,62 @@ background:#ff9800;
 transform:scale(1.1);
 
 }
+/*================ BUSCADOR ================*/
+
+.busqueda{
+
+display:flex;
+
+justify-content:center;
+
+margin:40px 0;
+
+flex-wrap:wrap;
+
+gap:10px;
+
+}
+
+.busqueda input{
+
+width:420px;
+
+max-width:90%;
+
+padding:16px 20px;
+
+border:none;
+
+border-radius:50px;
+
+font-size:18px;
+
+outline:none;
+
+}
+
+.busqueda button{
+
+padding:16px 28px;
+
+border:none;
+
+border-radius:50px;
+
+background:#ff9800;
+
+color:white;
+
+font-size:17px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.busqueda button:hover{
+
+background:#ff6f00;
+
+}
