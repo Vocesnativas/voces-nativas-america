@@ -279,3 +279,100 @@ nav a:hover::after{
     width:100%;
 
 }
+/*========== HERO PREMIUM ==========*/
+
+.etiqueta{
+
+display:inline-block;
+
+background:rgba(255,255,255,.15);
+
+padding:10px 22px;
+
+border-radius:30px;
+
+margin-bottom:25px;
+
+backdrop-filter:blur(8px);
+
+font-size:15px;
+
+}
+
+.hero h1{
+
+animation:aparecer 1.2s ease;
+
+}
+
+.hero p{
+
+animation:aparecer 1.8s ease;
+
+}
+
+.botones{
+
+animation:aparecer 2.2s ease;
+
+}
+
+@keyframes aparecer{
+
+from{
+
+opacity:0;
+
+transform:translateY(50px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+.flecha{
+
+position:absolute;
+
+bottom:30px;
+
+left:50%;
+
+transform:translateX(-50%);
+
+font-size:45px;
+
+color:white;
+
+animation:bajar 2s infinite;
+
+}
+
+@keyframes bajar{
+
+0%{
+
+transform:translate(-50%,0);
+
+}
+
+50%{
+
+transform:translate(-50%,15px);
+
+}
+
+100%{
+
+transform:translate(-50%,0);
+
+}
+
+}
