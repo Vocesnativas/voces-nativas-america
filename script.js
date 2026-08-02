@@ -81,3 +81,44 @@ btnArriba.addEventListener("click", () => {
     });
 
 });
+//================ BUSCADOR ================
+
+const buscar = document.getElementById("buscarLengua");
+
+const botonBuscar = document.getElementById("btnBuscar");
+
+botonBuscar.addEventListener("click", () => {
+
+    const texto = buscar.value.toLowerCase().trim();
+
+    if (texto === "wayuunaiki") {
+
+        location.href = "#lenguas";
+
+    }
+
+    else if (texto === "quechua") {
+
+        location.href = "#lenguas";
+
+    }
+
+    else if (texto === "náhuatl" || texto === "nahuatl") {
+
+        location.href = "#lenguas";
+
+    }
+
+    else if (texto === "guaraní" || texto === "guarani") {
+
+        location.href = "#lenguas";
+
+    }
+
+    else{
+
+        alert("Lengua no encontrada. Próximamente habrá más resultados.");
+
+    }
+
+});
