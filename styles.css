@@ -69,8 +69,8 @@ nav a:hover{
 
 /*================ HERO ================*/
 
-.hero{
-    height:100vh;
+hero{
+    margin-top: 90px;
 
     background:
     linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
