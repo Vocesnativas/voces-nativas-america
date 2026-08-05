@@ -100,7 +100,19 @@ hero{
     width:90%;
     max-width:900px;
 }
+.hero-izquierda{
 
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:flex-start;
+
+text-align:left;
+
+}
 .hero h1{
     font-size:70px;
     line-height:1.1;
