@@ -98,8 +98,11 @@ hero{
 
     position:relative;
     z-index:2;
+
     width:100%;
     max-width:1400px;
+
+    margin:auto;
 
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -107,12 +110,14 @@ hero{
     align-items:center;
 
 }
+
 .hero-izquierda{
 
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:flex-start;
+
     text-align:left;
 
 }
@@ -122,7 +127,9 @@ hero{
     display:flex;
     justify-content:center;
     align-items:center;
+
     position:relative;
+
     min-height:500px;
 
 }
@@ -131,18 +138,21 @@ hero{
 
     width:100%;
     max-width:650px;
+    height:auto;
 
 }
 
 .mascota{
 
     position:absolute;
-    bottom:-20px;
-    right:20px;
+
+    bottom:0;
+
+    right:0;
+
     width:220px;
 
 }
-
 .hero h1{
 
 font-size:68px;
