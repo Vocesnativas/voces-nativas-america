@@ -95,10 +95,17 @@ hero{
 }
 
 .hero-contenido{
+
     position:relative;
     z-index:2;
-    width:90%;
-    max-width:900px;
+    width:100%;
+    max-width:1400px;
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+
 }
 .hero-izquierda{
 display:flex;
