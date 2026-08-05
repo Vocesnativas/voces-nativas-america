@@ -69,29 +69,25 @@ nav a:hover{
 
 /*================ HERO ================*/
 
-hero{
-    margin-top: 90px;
+.hero{
+    margin-top:90px;
+    min-height:90vh;
 
-    background:
-    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
-    url("https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1600&q=80");
-
-    background-size:cover;
-    background-position:center;
+    background:linear-gradient(135deg,#0b3d2e,#0e5b45,#18775b);
 
     display:flex;
     justify-content:center;
     align-items:center;
-    text-align:center;
-
-    color:white;
 
     position:relative;
+
+    overflow:hidden;
 }
 
 .overlay{
     position:absolute;
     inset:0;
+    background:rgba(0,0,0,.25);
 }
 
 .hero-contenido{
@@ -99,83 +95,80 @@ hero{
     position:relative;
     z-index:2;
 
-    width:100%;
+    width:90%;
     max-width:1400px;
-
-    margin:auto;
 
     display:grid;
     grid-template-columns:1fr 1fr;
-    gap:60px;
+    gap:70px;
+
     align-items:center;
 
 }
 
 .hero-izquierda{
 
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:flex-start;
+    color:#fff;
 
-    text-align:left;
+}
+
+.etiqueta{
+
+    display:inline-block;
+
+    background:#ffffff22;
+
+    padding:10px 20px;
+
+    border-radius:40px;
+
+    margin-bottom:25px;
+
+}
+
+.titulo-principal{
+
+    font-size:72px;
+
+    line-height:1.05;
+
+    margin-bottom:25px;
+
+}
+
+.america{
+
+    display:block;
+
+    color:#FFD54F;
+
+}
+
+.hero p{
+
+    font-size:22px;
+
+    line-height:1.7;
+
+    margin-bottom:35px;
 
 }
 
 .hero-derecha{
 
     display:flex;
+
     justify-content:center;
+
     align-items:center;
-
-    position:relative;
-
-    min-height:500px;
 
 }
 
 .mapa{
 
     width:100%;
-    max-width:650px;
-    height:auto;
 
-}
-
-.mascota{
-
-    position:absolute;
-
-    bottom:0;
-
-    right:0;
-
-    width:220px;
-
-}
-.hero h1{
-
-font-size:68px;
-
-line-height:1.1;
-
-margin-bottom:25px;
-
-text-align:left;
-
-}
-
-.hero p{
-
-font-size:22px;
-
-line-height:1.7;
-
-margin-bottom:35px;
-
-text-align:left;
-
-max-width:650px;
+    max-width:550px;
 
 }
 
