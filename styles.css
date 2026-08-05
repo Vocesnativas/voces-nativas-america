@@ -108,25 +108,41 @@ hero{
 
 }
 .hero-izquierda{
-display:flex;
 
-flex-direction:column;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    text-align:left;
 
-justify-content:center;
+}
 
-align-items:flex-start;
-
-text-align:left;
 .hero-derecha{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    min-height:500px;
+
 }
 
 .mapa{
+
+    width:100%;
+    max-width:650px;
+
 }
 
 .mascota{
 
+    position:absolute;
+    bottom:-20px;
+    right:20px;
+    width:220px;
+
 }
-}
+
 .hero h1{
 
 font-size:68px;
