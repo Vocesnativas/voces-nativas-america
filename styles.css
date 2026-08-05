@@ -153,7 +153,44 @@ box-shadow:0 12px 30px rgba(255,152,0,.5);
     background:#fff;
     color:#0b5d3b;
 }
+.hero p{
+    font-size:22px;
+    margin-bottom:40px;
+}
 
+/* PEGA AQUÍ */
+
+.hero-derecha{
+
+display:flex;
+justify-content:center;
+align-items:center;
+position:relative;
+
+}
+
+.mapa{
+
+width:100%;
+max-width:500px;
+
+}
+
+.mascota{
+
+position:absolute;
+bottom:-20px;
+right:20px;
+width:220px;
+animation:flotar 4s ease-in-out infinite;
+
+}
+
+/* CONTINÚA EL CSS */
+
+.btn{
+    ...
+}
 /*================ SECCIONES ================*/
 
 .contenido{
