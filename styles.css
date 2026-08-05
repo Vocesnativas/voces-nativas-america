@@ -101,7 +101,6 @@ hero{
     max-width:900px;
 }
 .hero-izquierda{
-
 display:flex;
 
 flex-direction:column;
@@ -112,15 +111,13 @@ align-items:flex-start;
 
 text-align:left;
 .hero-derecha{
-...
 }
 
 .mapa{
-...
 }
 
 .mascota{
-...
+
 }
 }
 .hero h1{
