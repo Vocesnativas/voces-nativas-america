@@ -155,11 +155,15 @@ nav a:hover{
 
 .hero p{
 
-    font-size:22px;
+    font-size:20px;
 
     line-height:1.7;
 
+    max-width:600px;
+
     margin-bottom:35px;
+
+    color:rgba(255,255,255,.92);
 
 }
 
