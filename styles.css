@@ -224,13 +224,36 @@ box-shadow:0 12px 30px rgba(255,152,0,.5);
 }
 
 .btn-secundario{
-    border:2px solid #fff;
-    color:#fff;
+    display:inline-block;
+
+    background:#FFD54F;
+
+    color:#0b3d2e;
+
+    border:2px solid #FFD54F;
+
+    padding:16px 34px;
+
+    border-radius:50px;
+
+    font-weight:700;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.20);
+
+    transition:.3s ease;
 }
 
 .btn-secundario:hover{
+
     background:#fff;
+
+    border-color:#fff;
+
     color:#0b5d3b;
+
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 30px rgba(0,0,0,.25);
 }
 .hero p{
     font-size:22px;
