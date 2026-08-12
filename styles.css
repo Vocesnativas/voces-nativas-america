@@ -170,6 +170,12 @@ nav a:hover{
 
     max-width:550px;
 
+    height:auto;
+
+    border-radius:24px;
+
+    display:block;
+
 }
 
 /*================ BOTONES ================*/
