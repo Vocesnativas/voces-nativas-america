@@ -72,8 +72,11 @@ nav a:hover{
 .hero{
     margin-top:90px;
     min-height:90vh;
+    padding:80px 0;
 
-    background:linear-gradient(135deg,#0b3d2e,#0e5b45,#18775b);
+    background:
+        radial-gradient(circle at 80% 40%, rgba(255,213,79,.12), transparent 30%),
+        linear-gradient(135deg,#062e22,#0b5d3b,#18775b);
 
     display:flex;
     justify-content:center;
