@@ -189,8 +189,20 @@ nav a:hover{
 
     display:block;
 
-}
+    box-shadow:
+        0 25px 60px rgba(0,0,0,.30);
 
+    transition:.4s ease;
+
+}
+.mapa:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+        0 35px 70px rgba(0,0,0,.35);
+
+}
 /*================ BOTONES ================*/
 
 .botones{
