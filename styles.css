@@ -1119,3 +1119,64 @@ transform:scale(1.05);
 box-shadow:0 20px 40px rgba(0,0,0,.25);
 
 }
+/* ================= RESPONSIVE HERO ================= */
+
+@media (max-width: 768px){
+
+    .hero{
+        margin-top:80px;
+        min-height:auto;
+        padding:70px 20px;
+    }
+
+    .hero-contenedor{
+
+        width:100%;
+
+        grid-template-columns:1fr;
+
+        gap:40px;
+
+        text-align:center;
+
+    }
+
+    .hero-izquierda{
+
+        display:flex;
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .titulo-principal{
+
+        font-size:42px;
+
+        line-height:1.1;
+
+    }
+
+    .hero p{
+
+        font-size:18px;
+
+        max-width:500px;
+
+    }
+
+    .hero-derecha{
+
+        width:100%;
+
+    }
+
+    .mapa{
+
+        max-width:420px;
+
+    }
+
+}
